@@ -11,4 +11,5 @@ Layer 1:
 Layer 2:
 
 ![Layer 2](layouts/layer-2.png)
+
 [JSON (Raw)](layouts/layer-2_raw.json)
