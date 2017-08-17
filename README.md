@@ -2,14 +2,10 @@
 
 我所使用的各种键盘的固件、键盘映射和配置等。
 
-## Satan a.k.a. GH60 RevCHN
+## 键盘清单
 
-一款使用了[ATmega32u4](http://www.microchip.com/wwwproducts/en/ATmega32u4)微控制器的可编程键盘，采用ANSI 60%布局。
+1. [Satan a.k.a. GH60 RevCHN](satan/README.md)
 
-### 固件
-
-1. 清和T(keymaps/satan/seiwa-tmk/README.md)
-1. 清和Q(keymaps/satan/seiwa-qmk/README.md)
 
 ## 刷写方法
 
