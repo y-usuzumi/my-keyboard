@@ -28,14 +28,38 @@
 2. 使用`dfu-programmer`，暂不详述。
 
 最近一次使用TKG刷写键盘，不知为何无法刷写成功，进度条位置出现“100”字样，进度消失之后发现没有任何作用。使用dfu-programmer报类似unknown error之类的错误（具体记不清了）。解决办法是首先使用
-```bash
-dfu-programmer atmega32u4 erase --force  # 仅支持dfu-programmer >= 0.7
+```
+# dfu-programmer atmega32u4 erase --force  # 仅支持dfu-programmer >= 0.7
 ```
 擦除原有固件（然而以前并不需要这一步骤）。
 
 ### QMK
 
-TODO
+#### 准备工作
+
+首先参照[https://docs.qmk.fm/](https://docs.qmk.fm/)安装Atml AVR的交叉编译工具（该死的Gentoo crossdev完全不能用，我是在虚拟机里做的）。
+
+然后：
+
+```
+# git clone https://github.com/y-usuzumi/qmk_firmware.git
+# cd qmk_firmware
+# make <keyboard>-<subproject>-<keymap>-<target>
+```
+
+各部分参数具体含义请参照上面的QMK链接。
+
+#### 刷写固件
+
+QMK在make的`<target>`部分提供了如`dfu`、`dfu-util`等命令来刷写固件，但我并未尝试过。
+我所使用的是[https://github.com/kairyu/tkg-toolkit](https://github.com/kairyu/tkg-toolkit)。使用方法很简单：
+
+1. 克隆项目。
+1. 执行对应平台下的`setup`脚本，bootloader选择lufa_dfu。
+1. 执行对应平台下的`reflash.sh <准备工作中生成的.hex文件路径>`
+1. 按下键盘的reset键。
+
+刷好后键盘会自动重启。
 
 
 ## Tips and Tricks
