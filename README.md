@@ -2,10 +2,13 @@
 
 我所使用的各种键盘的固件、键盘映射和配置等。
 
-## 键盘清单
+## 键盘（成品或电路板)
 
 1. [Satan a.k.a. GH60 RevCHN](satan/README.md)
 
+## 键盘映射表
+
+[键盘映射表](keymaps/README.md)
 
 ## 刷写方法
 
