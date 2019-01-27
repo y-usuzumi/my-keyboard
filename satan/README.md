@@ -7,5 +7,5 @@
 
 固件列表：
 
-1. [清和T](seiwa-tmk/README.md)
-1. [清和Q](seiwa-qmk/README.md)
+1. [Seiwa-T](seiwa-tmk/README.md)（已废弃）
+1. [Seiwa](seiwa-qmk/README.md)

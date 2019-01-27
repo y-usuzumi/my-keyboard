@@ -1,8 +1,12 @@
-# 清和Q
+# Seiwa
+
+## Changelog
+
+### seiwa-0.7
+
+* 修复了按住GUI (Win) 键强制KC_GESC发送`Grave` keycode的bug。
 
 ## 层
-
-清和Q系列目前具有：
 
 两个基本层：
 0：Vim基本层
