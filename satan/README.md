@@ -52,4 +52,3 @@ ERROR: Bootloader not found. Trying again in 5s.
 ```
 
 此时打开键盘的刷写开关（一般是位于底部的一个隐蔽的按钮），之后终端会输出刷写信息直到完成。键盘会自动重启。
-
