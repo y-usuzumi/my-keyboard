@@ -1,6 +1,6 @@
-# Satan a.k.a. GH60 RevCHN
+# GH60 Satan
 
-一款使用了[ATmega32u4](http://www.microchip.com/wwwproducts/en/ATmega32u4)微控制器的可编程键盘，采用ANSI 60%布局。
+一款使用了[ATmega32u4](http://www.microchip.com/wwwproducts/en/ATmega32u4)微控制器的可编程键盘，采用 ANSI 60% 布局。
 
 ### 固件
 

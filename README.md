@@ -4,7 +4,7 @@
 
 ## 键盘（成品或电路板)
 
-1. [Satan a.k.a. GH60 RevCHN](satan/README.md)
+1. [GH60 Satan](satan/README.md)
 
 ## 键盘映射表
 
